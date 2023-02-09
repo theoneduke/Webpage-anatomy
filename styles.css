@@ -1,0 +1,77 @@
+.div{
+    height: 100%;
+}
+
+
+.header{
+    background-color: rgb(34, 214, 130);
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+header:hover{
+    cursor: pointer;
+}
+
+.header-two{
+    background-color: rgb(219, 87, 87);
+}
+
+.both{
+    background-color: rgb(17, 154, 108);
+    width: 100%;
+    height: 450px;
+    color: white;
+    display: flex;
+}
+
+.side-bar{
+    width: 30%;
+    border-right: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.side-bar:hover{
+    cursor: pointer;
+}
+.side-bar-two{
+    background-color: rgb(250, 64, 176);
+}
+.content{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.content:hover{
+    cursor: pointer;
+}
+.content-two{
+    background-color: rgb(119, 38, 38);
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(95, 164, 117);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border-top: 3px solid white;
+}
+.footer:hover{
+    cursor: pointer;
+}
+.footer-two{
+    background-color: rgb(219, 104, 123);
+}
